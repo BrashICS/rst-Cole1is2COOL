@@ -13,6 +13,6 @@ randInt(min, max, inclusive = true) {
 
 /** Cole's code goes below here **/
 
-`~
+
 
 
