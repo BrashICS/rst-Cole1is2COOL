@@ -16,9 +16,36 @@ let random_number = randInt(1, 3);
 
 /** Cole's code goes below here **/
 
-let want_to_play = prompt ("Would you like to play?");
+let want_to_play = prompt ("Would you like to play? y/n");
 
 
-if (want_to_play == "yes") {
-  console.log ("Write one: Fries, Meatball, or Milkshake")
+if (want_to_play == "y") {
+  console.log ("Pick one: Fries, Meatball, or Milkshacke")
 }
+
+
+
+if (want_to_play == "Fries") {
+
+console.log ("You picked Fries!")
+
+}
+
+if (want_to_play == "Milkshack")  {
+
+console_log ("You picked Mickshack!!")
+
+}
+
+
+
+if (want_to_play == "MeatBall")  {
+
+  console_log ("You picked Meatball!!!")
+
+}
+
+
+
+
+
