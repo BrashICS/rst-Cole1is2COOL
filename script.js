@@ -16,6 +16,9 @@ let random_number = randInt(1, 3);
 
 /** Cole's code goes below here **/
 
+let want_to_play = prompt ("Would you like to play?");
 
 
-
+if (want_to_play == "yes") {
+  console.log ("Write one: Fries, Meatball, or Milkshake")
+}
