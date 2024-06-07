@@ -19,21 +19,21 @@ let random_number = randInt(1, 3);
 let want_to_play = prompt ("Would you like to play? y/n");
 
 
+
 if (want_to_play == "y") {
-  console.log ("Pick one: Fries, Meatball, or Milkshacke")
+  let want_to_play = prompt ("Pick one: Fries, Meatball, or Milkshack");
 }
 
 
 
 if (want_to_play == "Fries") {
 
-console.log ("You picked Fries!")
+
 
 }
 
 if (want_to_play == "Milkshack")  {
 
-console_log ("You picked Mickshack!!")
 
 }
 
@@ -41,11 +41,20 @@ console_log ("You picked Mickshack!!")
 
 if (want_to_play == "MeatBall")  {
 
-  console_log ("You picked Meatball!!!")
 
 }
 
 
 
 
+
+if (want_to_play == "y") {
+  let want_to_play = prompt ("Pick one: Fries, Meatball, or Milkshack");
+}
+
+
+
+let Opponent = randInt(1,3);
+
+"Fries" = 
 
