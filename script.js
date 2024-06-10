@@ -19,42 +19,62 @@ let random_number = randInt(1, 3);
 let want_to_play = prompt ("Would you like to play? y/n");
 
 
-
 if (want_to_play == "y") {
-  let want_to_play = prompt ("Pick one: Fries, Meatball, or Milkshack");
+  want_to_play = parseInt(prompt ("Select: 1 for Fries, 2 for Meatball, or 3 for Milkshack"));
 }
 
 
 
-if (want_to_play == "Fries") {
+let opponent = randInt(1,3);
 
-
-
-}
-
-if (want_to_play == "Milkshack")  {
-
-
+if (want_to_play == 1 && opponent == 1) {
+  console.log ("You Tied!!! Please restart")
 }
 
 
 
-if (want_to_play == "MeatBall")  {
-
-
+if (want_to_play == 1 && opponent == 2) {
+  console.log ("The opponent picked MEATBALL!, You LOSE!!!")
 }
 
 
 
+if (want_to_play == 1 && opponent == 3) {
+  console.log ("The opponent picked MILKSHACK!, You WIN!!!")
+}
 
+//meatball time
 
-if (want_to_play == "y") {
-  let want_to_play = prompt ("Pick one: Fries, Meatball, or Milkshack");
+if (want_to_play == 2 && opponent == 1) {
+  console.log ("The opponent picked FRIES!, You WIN!!!")
 }
 
 
 
-let Opponent = randInt(1,3);
+if (want_to_play == 2 && opponent == 2) {
+  console.log ("The opponent picked MEATBALL!, You TIED!!!")
+}
 
-"Fries" = 
+
+if (want_to_play == 2 && opponent == 3) {
+  console.log ("The opponent picked MILKSHACK!, You LOSE!!!")
+}
+
+//Time to SHACK it up!!!
+
+if (want_to_play == 3 && opponent == 1) {
+  console.log ("The opponent picked FRIES!,You LOSE!!! ")
+}
+
+
+if (want_to_play == 3 && opponent == 2) {
+  console.log ("The opponent picked MEATBALL! You WIN!!!")
+}
+
+
+if (want_to_play == 3 && opponent == 3) {
+  console.log ("The opponent picked also picked MEATBALL!, You TIED!!!")
+}
+
+
 
