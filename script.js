@@ -82,6 +82,12 @@ let user_count = (want_to_play == 1 && opponent == 3) ||
 (want_to_play == 3 && opponent == 2)
 
 
+
+let opponent_count = (want_to_play == 1 && opponent == 2) ||
+(want_to_play == 2 && opponent == 3) ||
+(want_to_play == 3 && opponent == 1)
+
+
 if (user_count) {
   console.log ("The score is 1-0, One more win to go!!!")
 }
@@ -89,6 +95,8 @@ if (user_count) {
 else {
   console.log ("The score is 0-1, your on thin ice buddy!!!")
 }
+
+
 
 
 
