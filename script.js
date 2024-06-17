@@ -28,73 +28,54 @@ if (want_to_play == "y") {
 let opponent = randInt(1,3);
 
 if (want_to_play == 1 && opponent == 1) {
-  console.log ("You Tied!!! Please restart")
+  console.log ("The opponent picked Fries!, You Tied!!! Please reset to play again")
 }
 
 
 
 if (want_to_play == 1 && opponent == 2) {
-  console.log ("The opponent picked MEATBALL!, You LOSE!!!")
+  console.log ("The opponent picked MEATBALL!, You LOSE!!! Please reset to play again")
 }
 
 
 
 if (want_to_play == 1 && opponent == 3) {
-  console.log ("The opponent picked MILKSHACK!, You WIN!!!")
+  console.log ("The opponent picked MILKSHACK!, You WIN!!! Please reset to play again")
 }
 
 //meatball time
 
 if (want_to_play == 2 && opponent == 1) {
-  console.log ("The opponent picked FRIES!, You WIN!!!")
+  console.log ("The opponent picked FRIES!, You WIN!!! Please reset to play again")
 }
 
 
 
 if (want_to_play == 2 && opponent == 2) {
-  console.log ("The opponent picked MEATBALL!, You TIED!!!")
+  console.log ("The opponent picked MEATBALL!, You TIED!!! Please reset to play again")
 }
 
 
 if (want_to_play == 2 && opponent == 3) {
-  console.log ("The opponent picked MILKSHACK!, You LOSE!!!")
+  console.log ("The opponent picked MILKSHACK!, You LOSE!!! Please reset to play again")
 }
 
 //Time to SHACK it up!!!
 
 if (want_to_play == 3 && opponent == 1) {
-  console.log ("The opponent picked FRIES!,You LOSE!!! ")
+  console.log ("The opponent picked FRIES!, You LOSE!!! Please reset to play again")
 }
 
 
 if (want_to_play == 3 && opponent == 2) {
-  console.log ("The opponent picked MEATBALL! You WIN!!!")
+  console.log ("The opponent picked MEATBALL! You WIN!!! Please reset to play again")
 }
 
 
 if (want_to_play == 3 && opponent == 3) {
-  console.log ("The opponent picked also picked MEATBALL!, You TIED!!!")
+  console.log ("The opponent picked also picked MEATBALL!, You TIED!!! Please reset to play again")
 }
 
-
-let user_count = (want_to_play == 1 && opponent == 3) ||
-(want_to_play == 2 && opponent == 1) ||
-(want_to_play == 3 && opponent == 2)
-
-
-
-let opponent_count = (want_to_play == 1 && opponent == 2) ||
-(want_to_play == 2 && opponent == 3) ||
-(want_to_play == 3 && opponent == 1)
-
-
-if (user_count) {
-  console.log ("The score is 1-0, One more win to go!!!")
-}
-
-else {
-  console.log ("The score is 0-1, your on thin ice buddy!!!")
-}
 
 
 
