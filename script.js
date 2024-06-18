@@ -38,7 +38,7 @@ if (want_to_play == 1 && opponent == 2) {
 }
 
 
-
+// sample
 if (want_to_play == 1 && opponent == 3) {
   console.log ("The opponent picked MILKSHACK!, You WIN!!! Please reset to play again")
 }
